@@ -1,0 +1,32 @@
+{
+  "name": "marketplace-server-goit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect index.js ",
+    "startnodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kam1Cadzee/marketplace-server-goit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kam1Cadzee/marketplace-server-goit/issues"
+  },
+  "homepage": "https://github.com/Kam1Cadzee/marketplace-server-goit#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "mongoose": "^5.4.15",
+    "multer": "^1.4.1"
+  }
+}
